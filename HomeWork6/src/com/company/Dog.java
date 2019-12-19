@@ -25,4 +25,13 @@ public class Dog extends Animal {
             super.run(distance);
         }
     }
+
+    @Override
+    public void jump(float distance){
+        if(distance > 0.5){
+            System.out.println(name + " не может прыгать на " + distance + " м");
+        } else{
+            super.jump(distance);
+        }
+    }
 }

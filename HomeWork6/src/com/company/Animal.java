@@ -17,7 +17,9 @@ public class Animal {
     public void run(int distance){
         System.out.println(name + " пробежал " + distance + " м");
     }
-
+    public void jump(float distance){
+        System.out.println(name + " прыгает на " + distance + " м");
+    }
     public void swim(int distance){
         System.out.println(name + " пропылл " + distance + " м");
     }
